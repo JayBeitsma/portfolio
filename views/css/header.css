@@ -3,7 +3,23 @@
 header {
     width: auto;
     background-color: transparent;
-    height: 60px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 2%;
+}
+
+.containerNav {
+    display: none;
+    width: auto;
+
 }
 
 nav {
@@ -14,29 +30,56 @@ nav a {
     text-decoration: none;
     color: white;
     border-bottom: 2px solid transparent;
+    padding: 10px 2%;
+    width: auto;
+    background-color: transparent;
+    z-index: 999;
+    border-bottom: 1px solid #2521A6;
 }
 
 nav a:hover {
-    border-bottom: 2px solid #F28500;
+    border-bottom: 1px solid black;
+    background-color: #2521A6;
+    color: black;
 }
+
+/* 320 tot 768 */
+@media screen and (min-width: 1px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #2521A6;
+        margin: 6px 0;
+    }
+}
+
 @media screen and (min-width: 768px) {
     header {
-        width: auto;
-        background-color: transparent;
-        height: 60px;
-        border-bottom: 3px solid black;
-        padding: 20px 15%;
+        padding: 20px 5%;
         align-items: center;
         justify-content: space-between;
         display: flex;
         flex-direction: row;
+        height: 60px;
+    }
+
+    .containerNav {
+        display: flex;
+        min-width: 500px;
+        width: 40vw;
     }
 
     nav {
-        font-size: 20px;
         width: 30vw;
+        min-width: 500px;
         display: flex;
         justify-content: space-around;
+        flex-direction: row;
     }
 
     nav a {
@@ -44,12 +87,28 @@ nav a:hover {
         color: white;
         padding: 10px 20px;
         border-bottom: 2px solid transparent;
+        background-color: transparent;
+    }
+
+    nav a:hover {
+        background-color: transparent;
+        border-bottom: 2px solid #2521A6;
+        color: white;
+    }
+
+    .hamburger {
+        display: none;
     }
 }
 
 /* 1024 tot 1440 */
 @media screen and (min-width: 1024px) {
-    nav a:hover {
-        border-bottom: 2px solid red;
+    header {
+        padding: 20px 10%;
     }
+
+}
+/* 1440+ */
+@media screen and (min-width: 1440px) {
+
 }
