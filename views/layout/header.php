@@ -11,9 +11,9 @@
 
     </div>
     <nav>
-        <a href="../views/index.view.php">Home</a>
-        <a href="../views/about.view.php">Over mij</a>
-        <a href="../views/portfolio.view.php">Portfolio</a>
-        <a href="../views/contact.view.php">Contact</a>
+        <a href="/">Home</a>
+        <a href="about">Over mij</a>
+        <a href="portfolio">Portfolio</a>
+        <a href="contact">Contact</a>
     </nav>
 </header>
