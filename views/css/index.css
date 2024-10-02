@@ -1,0 +1,25 @@
+/* 320px tot 768px */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    width: 90%;
+}
+
+.imageHolder {
+    width: 90%;
+}
+
+ img {
+     width: 100%;
+     height: 100%;
+}
+
+/* 768px tot 1024 */
+@media screen and (min-width: 768px) {
+
+}

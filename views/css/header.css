@@ -19,7 +19,6 @@ header {
 .containerNav {
     display: none;
     width: auto;
-
 }
 
 nav {
@@ -44,7 +43,6 @@ nav a:hover {
 }
 
 /* 320 tot 768 */
-@media screen and (min-width: 1px) {
     nav {
         display: flex;
         flex-direction: column;
@@ -56,7 +54,7 @@ nav a:hover {
         background-color: #2521A6;
         margin: 6px 0;
     }
-}
+
 
 @media screen and (min-width: 768px) {
     header {
