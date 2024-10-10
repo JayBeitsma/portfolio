@@ -8,15 +8,16 @@
         require __DIR__ . '../controllers/index.controller.php';
         break;
      case '/portfolio':
-        require __DIR__ . '../views/portfolio.view.php';
+        require __DIR__ . '../controllers/portfolio.controller.php';
         break;
      case '/about':
-        require __DIR__ . '../views/about.view.php';
+        require __DIR__ . '../controllers/about.controller.php';
         break;
      case '/contact':
-        require __DIR__ . '../views/contact.view.php';
+        require __DIR__ . '../controllers/contact.controller.php';
+        contact();
         break;
      default:
-        require __DIR__ . '../views/index.view.php';
+        require __DIR__ . '../controllers/index.controller.php';
         break;
  }

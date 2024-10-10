@@ -5,7 +5,7 @@ require 'layout/header.php';
 ?>
 
 <main>
-    contact
+
 </main>
 
 <?php
