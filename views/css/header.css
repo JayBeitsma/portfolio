@@ -42,7 +42,7 @@ nav a:hover {
     color: black;
 }
 
-/* 320 tot 768 */
+/* 320 to 768 */
     nav {
         display: flex;
         flex-direction: column;
@@ -99,7 +99,7 @@ nav a:hover {
     }
 }
 
-/* 1024 tot 1440 */
+/* 1024 to 1440 */
 @media screen and (min-width: 1024px) {
     header {
         padding: 20px 10%;
