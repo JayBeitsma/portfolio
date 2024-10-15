@@ -1,9 +1,12 @@
 @import "footer.css";
 @import "header.css";
+/* Import Orbitron from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
 
 body {
     background-color: black;
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'orbitron', sans-serif;
     margin: 0;
 }
