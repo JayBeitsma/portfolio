@@ -1,0 +1,38 @@
+/* 320 to 768 */
+body {
+
+}
+main {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+
+}
+.projectcontainer {
+    width: 90%;
+    margin: auto;
+
+}
+
+.project {
+    border: solid white 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 2%;
+}
+
+.project img {
+    object-fit: cover;
+    width: 90%;
+    height: 90%;
+
+}
+
+/* 768px to 1024 */
+@media screen and (min-width: 768px) {
+
+}

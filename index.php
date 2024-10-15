@@ -5,7 +5,7 @@ require 'dbconnect.php';
 require './controllers/about.controller.php';
 require './controllers/ContactController.php';
 require './controllers/index.controller.php';
-require './controllers/portfolio.controller.php';
+require './controllers/PortfolioController.php';
 
 //require 'views/index.view.php';
 $requestPage = $_SERVER['REQUEST_URI'];
@@ -15,6 +15,9 @@ switch ($requestPage) {
         require __DIR__ . '/views/index.view.php';
         break;
     case '/portfolio':
+        $portfolioModel = new PortfolioModel($conn);
+        $portfolioController = new PortfolioController($portfolioModel);
+        $projects = $portfolioController->displayProjects();
         require __DIR__ . '/views/portfolio.view.php';
         break;
     case '/about':
