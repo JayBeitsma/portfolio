@@ -1,16 +1,17 @@
 <?php
 require_once 'models/PortfolioModel.php';
-require_once 'dbconnect.php'; // Use the provided DB connection
 class PortfolioController
 {
-    private $model;
+    // create model
+    protected $model;
 
-    public function __construct($model) {
+    // construct model
+    public function __construct(PortfolioModel $model) {
         $this->model = $model;
     }
 
+    //
     public function displayProjects() {
-        $projects = $this->model->getProjects();
-        return $projects;
+        return $this->model->getAll();
     }
 }
