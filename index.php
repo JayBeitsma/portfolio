@@ -22,7 +22,7 @@ switch ($requestPage) {
     case '/project':
         $projectModel = new ProjectModel($conn);
         $projectController = new ProjectController($projectModel);
-        $projects = $projectController->displayProject();
+        $project = $projectController->displayProject();
         require __DIR__ . '/views/project.view.php';
         break;
     case '/about':
