@@ -11,7 +11,7 @@ class ProjectController
     }
 
     //
-    public function displayProject() {
-        return $this->model->getProjectById();
+    public function displayProject($id) {
+        return $this->model->getProjectById($id);
     }
 }

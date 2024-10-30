@@ -19,7 +19,7 @@ require 'layout/header.php';
         <div class="projectcontainer">
             <?php foreach ($projects as $project):
                 if ($project['url'] == '') {
-                    $project['url'] = '/project';
+                    $project['url'] = '/project?id=' . $project['projectId'];
                 }
                 ?>
                 <div class="project">

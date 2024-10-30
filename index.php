@@ -19,11 +19,19 @@ switch ($requestPage) {
         $projects = $portfolioController->displayProjects();
         require __DIR__ . '/views/portfolio.view.php';
         break;
-    case '/project':
-        $projectModel = new ProjectModel($conn);
-        $projectController = new ProjectController($projectModel);
-        $project = $projectController->displayProject();
-        require __DIR__ . '/views/project.view.php';
+    case (preg_match('/\/project\?id=\d+/', $requestPage) ? true : false): // Match /project?id=<number>
+        parse_str(parse_url($requestPage, PHP_URL_QUERY), $queryParams);// Parse the project ID from the URL
+        $projectId = $queryParams['id'] ?? null;
+
+        // Check for valid projectId
+        if ($projectId) {
+            $projectModel = new ProjectModel($conn);
+            $projectController = new ProjectController($projectModel);
+            $project = $projectController->displayProject($projectId); // Pass the ID to the controller
+            require __DIR__ . '/views/project.view.php';
+        } else {
+            echo "Invalid project ID.";
+        }
         break;
     case '/about':
         require __DIR__ . '/views/about.view.php';
