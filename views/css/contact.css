@@ -1,0 +1,76 @@
+/* 320px to 768px */
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.contactContainer {
+    width: 90%;
+    border: solid 7px orangered;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: orange;
+
+}
+
+.contactContainer label {
+    display: none;
+}
+
+.formIntro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    align-items: center;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: transparent;
+}
+
+.inputField {
+    width: 90%;
+    color: white;
+    background-color: transparent;
+    border: transparent;
+    border-bottom: 2px solid orangered;
+    font-size: 24px;
+    margin: 20px;
+}
+
+input:focus {
+     outline: none;
+}
+
+input::placeholder {
+    color: orangered;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px black inset;
+    box-shadow: 0 0 0 1000px black inset; /* For non-webkit browsers */
+    -webkit-text-fill-color: white;
+}
+
+.input-btn {
+    background-color: transparent;
+    border: 2px solid orangered;
+    font-size: 17px;
+    font-family: 'orbitron', sans-serif;
+    color: white;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+/* 768px to 1024 */
+@media screen and (min-width: 768px) {
+
+}
