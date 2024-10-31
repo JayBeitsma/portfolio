@@ -1,14 +1,42 @@
 footer {
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .footerContainer {
     display: flex;
+    text-align: center;
+}
+
+.footerIcon {
+    display: flex;
+    justify-content: center;
+    min-width: 40px;
     align-items: center;
-    justify-content: space-around;
 }
 
 .footerIcon a {
     color: inherit;
     text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+    .footerContainer {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100vh;
+        max-width: 1200px;
+    }
+
+    .footerIcon {
+        flex: 1;
+        margin-bottom: 0;
+    }
+
+    .copyright {
+        flex: 2;
+        text-align: center;
+    }
 }

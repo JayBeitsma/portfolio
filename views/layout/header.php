@@ -11,7 +11,7 @@
 </head>
 <body>
 <header>
-    <div class="headercontainer">
+    <div class="headerContainer">
         <div class="logo">
             Logo
         </div>
@@ -21,13 +21,14 @@
             <div class="bar2"></div>
             <div class="bar3"></div>
         </div>
-    </div>
-    <div class="containerNav" id="navMain">
-        <nav>
-            <a href="/">Home</a>
-            <a href="about">Over mij</a>
-            <a href="portfolio">Portfolio</a>
-            <a href="contact">Contact</a>
-        </nav>
+
+        <div class="containerNav" id="navMain">
+            <nav>
+                <a href="/">Home</a>
+                <a href="about">Over mij</a>
+                <a href="portfolio">Portfolio</a>
+                <a href="contact">Contact</a>
+            </nav>
+        </div>
     </div>
 </header>

@@ -8,12 +8,12 @@ header {
     flex-direction: column;
 }
 
-.headercontainer {
+.headerContainer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 2%;
+    padding: 10px 10px;
 }
 
 .containerNav {
@@ -60,20 +60,24 @@ nav a:hover {
     header {
         padding: 20px 5%;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
         display: flex;
         flex-direction: row;
         height: 60px;
     }
 
+    .headerContainer {
+        display: flex;
+        max-width: 1200px;
+        width: 100%;
+    }
+
     .containerNav {
         display: flex;
         min-width: 500px;
-        width: 40vw;
     }
 
     nav {
-        width: 30vw;
         min-width: 500px;
         display: flex;
         justify-content: space-around;
@@ -99,14 +103,3 @@ nav a:hover {
     }
 }
 
-/* 1024 to 1440 */
-@media screen and (min-width: 1024px) {
-    header {
-        padding: 20px 10%;
-    }
-
-}
-/* 1440+ */
-@media screen and (min-width: 1440px) {
-
-}
