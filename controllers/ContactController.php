@@ -19,9 +19,9 @@ class ContactController {
 
             $messageModel = new ContactModel($this->db);
             if ($messageModel->insertMessage($name, $email, $phone, $message)) {
-                echo "Message has been sent!";
+//                echo "Message has been sent!";
             } else {
-                echo "Error: Could not save the message.";
+//                echo "Error: Could not save the message.";
             }
         }
     }

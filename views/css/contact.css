@@ -1,4 +1,4 @@
-/* 320px to 768px */
+/* Everything already works resposive */
 main {
     display: flex;
     justify-content: center;
@@ -6,16 +6,51 @@ main {
 
 .contactContainer {
     width: 90%;
-    border: solid 7px orangered;
+    border-radius: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: orange;
-
+    max-width: 700px;
 }
 
 .contactContainer label {
     display: none;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.info p {
+    margin: 0;
+}
+
+.icon {
+    background-color: darkblue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+}
+
+i.material-icons {
+    font-size: 32px !important;
+    height: 32px;
+    width: 32px;
 }
 
 .formIntro {
@@ -24,6 +59,7 @@ main {
     justify-content: center;
     width: 90%;
     align-items: center;
+    text-align: center;
 }
 
 .contactForm {
@@ -34,43 +70,63 @@ main {
     background-color: transparent;
 }
 
-.inputField {
-    width: 90%;
+.inputField, textarea.inputField {
+    width: 100%;
     color: white;
-    background-color: transparent;
+    background-color: #141414;
+    border-radius: 10px;
     border: transparent;
-    border-bottom: 2px solid orangered;
-    font-size: 24px;
-    margin: 20px;
+    font-size: 16px;
+    margin: 10px;
+    font-family: 'orbitron', sans-serif;
+    padding: 20px;
+
+    box-sizing: border-box;
 }
 
-input:focus {
+textarea.inputField {
+    height: 300px;
+}
+
+input:focus, textarea.inputField:focus {
      outline: none;
 }
 
-input::placeholder {
-    color: orangered;
+input::placeholder, textarea.inputField::placeholder {
+    color: white;
+    padding: 2px;
 }
 
 input:-webkit-autofill {
-    -webkit-box-shadow: 0 0 0 1000px black inset;
-    box-shadow: 0 0 0 1000px black inset; /* For non-webkit browsers */
+    -webkit-box-shadow: 0 0 0 1000px skyblue inset;
+    box-shadow: 0 0 0 1000px skyblue inset; /* For non-webkit browsers */
     -webkit-text-fill-color: white;
 }
 
 .input-btn {
-    background-color: transparent;
-    border: 2px solid orangered;
-    font-size: 17px;
+    background-color: darkblue;
+    border: transparent;
+    border-radius: 10px;
+    font-size: 16px;
     font-family: 'orbitron', sans-serif;
     color: white;
-    width: 200px;
+    width: 100%;
     padding: 20px;
-    margin: 20px;
+    margin: 10px;
 
 }
 
-/* 768px to 1024 */
+/* Small changes at tablet size(768px) and above */
 @media screen and (min-width: 768px) {
+    .infoContainer {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+        width: 100%;
+    }
 
+    .info {
+        width: 30%;
+
+    }
 }

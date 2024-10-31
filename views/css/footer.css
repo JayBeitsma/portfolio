@@ -1,0 +1,14 @@
+footer {
+    width: 100%;
+}
+
+.footerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footerIcon a {
+    color: inherit;
+    text-decoration: none;
+}

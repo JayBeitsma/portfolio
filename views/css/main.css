@@ -5,8 +5,16 @@
 
 
 body {
-    background-color: black;
+    background-color: #0C0C0C;
     color: white;
     font-family: 'orbitron', sans-serif;
     margin: 0;
+}
+
+main {
+    margin-bottom: 100px;
+}
+
+.wrapper {
+    min-height: 100vh;
 }
