@@ -4,21 +4,27 @@ header {
     width: auto;
     background-color: transparent;
     height: auto;
-    display: flex;
-    flex-direction: column;
+    box-sizing: border-box;
 }
 
 .headerContainer {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
     padding: 10px 10px;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.test {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .containerNav {
     display: none;
-    width: auto;
+    width: 100vw;
 }
 
 nav {
@@ -63,18 +69,19 @@ nav a:hover {
         justify-content: center;
         display: flex;
         flex-direction: row;
-        height: 60px;
     }
 
     .headerContainer {
         display: flex;
         max-width: 1200px;
         width: 100%;
+        flex-direction: row;
     }
 
     .containerNav {
         display: flex;
         min-width: 500px;
+        width: 0;
     }
 
     nav {

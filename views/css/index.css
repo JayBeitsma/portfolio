@@ -1,8 +1,7 @@
-/* 320px to 768px */
+
 main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -10,16 +9,51 @@ main {
     width: 90%;
 }
 
+.smallTitle {
+    padding: 4px;
+    font-size: 20px;
+}
+
+.bigTitle {
+    padding: 4px;
+    font-size: 32px;
+}
+
+.about {
+    opacity: .9;
+}
+
+.more-btn {
+    padding: 20px;
+    font-size: 16px;
+
+}
+
 .imageHolder {
     width: 90%;
 }
 
- img {
-     width: 100%;
-     height: 100%;
-}
+/* img {*/
+/*     height: 500px;*/
+/*     width: auto;*/
+/*}*/
 
-/* 768px to 1024 */
-@media screen and (min-width: 768px) {
 
+@media screen and (min-width: 1024px) {
+    main {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .info {
+        width: 40%;
+    }
+
+    .imageHolder {
+        width: 40%;
+    }
+
+    .bigTitle {
+        font-size: 48px;
+    }
 }

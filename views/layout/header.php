@@ -12,16 +12,17 @@
 <body>
 <header>
     <div class="headerContainer">
-        <div class="logo">
-            Logo
+        <div class="test">
+            <div class="logo">
+                Logo
+            </div>
+            <!--    Hamburger   -->
+            <div class="hamburger" onclick="hamburger()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
         </div>
-        <!--    Hamburger   -->
-        <div class="hamburger" onclick="hamburger()">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-        </div>
-
         <div class="containerNav" id="navMain">
             <nav>
                 <a href="/">Home</a>

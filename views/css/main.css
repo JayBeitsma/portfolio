@@ -9,8 +9,19 @@ body {
     color: white;
     font-family: 'orbitron', sans-serif;
     margin: 0;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
 }
 
 main {
-    margin-bottom: 100px;
+    flex: 1 0 auto;
+}
+
+.btn {
+    background-color: darkblue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-family: 'orbitron', sans-serif;
 }
