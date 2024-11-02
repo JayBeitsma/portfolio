@@ -8,34 +8,29 @@ require 'layout/header.php';
     <style>
         @import "../views/css/portfolio.css";
     </style>
-    <div class="container">
-        <div class="intro">
-            <h1 class="title">Projecten</h1>
-            <p class="disc">Bekijk hier een lijst aan projecten die ik heb gemaakt of aan meegewerkt.</p>
-        </div>
-        <div class="filter">
-            filter
-        </div>
-        <div class="projectcontainer">
-            <?php foreach ($projects as $project):
-                if ($project['url'] == '') {
-                    $project['url'] = '/project?id=' . $project['projectId'];
-                }
-                ?>
+    <div class="intro">
+        <h1 class="title">Projecten</h1>
+        <p class="disc">Bekijk hier een lijst aan projecten die ik heb gemaakt of aan heb meegewerkt.</p>
+    </div>
+    <div class="projectcontainer">
+        <?php foreach ($projects as $project):
+            $project['url'] = '/project?id=' . $project['projectId'];
+            ?>
+            <a href="<?= htmlspecialchars($project['url']); ?>">
                 <div class="project">
-                    <img src="<?= htmlspecialchars($project['featuredimg']); ?>" alt="Project Image">
-                    <h2><?= htmlspecialchars($project['title']); ?></h2>
-                    <div>
-                        <p><?= htmlspecialchars($project['tinydescription']); ?></p>
-                        <p>Company: <?= htmlspecialchars($project['company']); ?></p>
-                        <p>Client: <?= htmlspecialchars($project['client']); ?></p>
-                    </div>
-                    <div>
-                        <a href="<?= htmlspecialchars($project['url']); ?>" class="btn btn-more">Bekijk >>></a>
+                    <img src="views/img/RETROWAVE-OASIS-33331.png" alt="Project Image">
+                    <div class="infobox">
+                        <h2><?= htmlspecialchars($project['title']); ?></h2>
+                        <div>
+                            <p><?= htmlspecialchars($project['tinydescription']); ?></p>
+                            <p><span class="highlight">Company:</span> <?= htmlspecialchars($project['company']); ?></p>
+                            <p><span class="highlight">Client:</span> <?= htmlspecialchars($project['client']); ?></p>
+                        </div>
+                        <span class="btn-more btn">Bekijk >>></span>
                     </div>
                 </div>
-            <?php endforeach; ?>
-        </div>
+            </a>
+        <?php endforeach; ?>
     </div>
 </main>
 
