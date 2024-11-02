@@ -18,7 +18,7 @@ require 'layout/header.php';
             ?>
             <a href="<?= htmlspecialchars($project['url']); ?>">
                 <div class="project">
-                    <img src="views/img/RETROWAVE-OASIS-33331.png" alt="Project Image">
+                    <img src="views/img/<?=htmlspecialchars($project['featuredimg']); ?>" alt="Project Image">
                     <div class="infobox">
                         <h2><?= htmlspecialchars($project['title']); ?></h2>
                         <div>

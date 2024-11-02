@@ -15,5 +15,7 @@ window.addEventListener('resize', function () {
     const links = document.getElementById("navMain");
     if (width > 768) {
         links.style.display = "block";
+    } else {
+        links.style.display = "none";
     }
 });

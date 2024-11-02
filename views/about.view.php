@@ -95,7 +95,7 @@ require 'layout/header.php';
         </div>
         <div class="social">
             <a href="assets/CV.pdf" download>
-                <span class="material-icons">download</span>
+                <i class="material-icons">download</i>
             </a>
             <a class="icons" href="https://github.com/JayBeitsma" target="_blank"><i class="devicon-github-original subtext"></i></a>
             <a class="icons" href="https://www.linkedin.com/in/jay-beitsma/" target="_blank"><i class="devicon-linkedin-plain subtext"></i></a>
