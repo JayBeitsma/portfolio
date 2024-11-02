@@ -1,7 +1,7 @@
 /* Hamburger menu function */
 
 function hamburger() {
-    var links = document.getElementById("navMain");
+    const links = document.getElementById("navMain");
     if (links.style.display === "block") {
         links.style.display = "none";
     } else {
@@ -10,3 +10,10 @@ function hamburger() {
 }
 
 /* check if screen with is higher than 768 */
+window.addEventListener('resize', function () {
+    const width = window.innerWidth;
+    const links = document.getElementById("navMain");
+    if (width > 768) {
+        links.style.display = "block";
+    }
+});

@@ -1,0 +1,115 @@
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about {
+    padding: 20px;
+}
+
+.about h1, h2 {
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background-color: #141414;
+    border-radius: 10px;
+    border: 2px solid darkblue;
+    padding: 10px;
+    height: 500px;
+    max-width: 300px;
+    overflow: hidden;
+}
+
+
+
+/* selector */
+.swap {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.swap span {
+    height: 22px;
+}
+
+/* Content box for quality and experience */
+.content {
+    flex: 1;
+    overflow: auto;
+}
+
+/* Quality */
+.qualities {
+    display: none;
+    flex-direction: column;
+}
+
+/* Experience */
+.experiences {
+    display: none;
+    flex-direction: column;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid darkblue;
+}
+
+.job, .dates {
+    display: flex;
+    justify-content: space-between;
+}
+
+.company {
+    font-weight: bolder !important;
+}
+
+
+
+/* Ratings */
+.cube-container {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.cube {
+    width: 20px;
+    height: 20px;
+    background-color: darkblue;
+}
+
+/* socials */
+.social {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid darkblue;
+    padding: 10px 0;
+
+}
+
+.social a {
+    width: 16px;
+    height: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (min-width: 1024px) {
+    main {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .about, .container {
+        width: 50%;
+    }
+}
