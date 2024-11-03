@@ -10,7 +10,6 @@ main {
     align-items: center;
     width: 90%;
     max-width: 700px;
-    box-sizing: border-box;
 }
 
 img {
@@ -18,18 +17,24 @@ img {
 }
 
 /* info */
+.info {
+    width: 100%;
+}
+
 .info ul {
     padding: 20px 40px;
     background-color: #141414;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
 
 }
 .item {
     display: flex;
     justify-content: space-between;
-
     box-sizing: border-box;
     width: 100%;
+    word-wrap: anywhere;
 }
 
 /* Go back button at the top of the page */

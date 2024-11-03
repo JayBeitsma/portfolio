@@ -13,7 +13,7 @@ function hamburger() {
 window.addEventListener('resize', function () {
     const width = window.innerWidth;
     const links = document.getElementById("navMain");
-    if (width > 768) {
+    if (width >= 768) {
         links.style.display = "block";
     } else {
         links.style.display = "none";
