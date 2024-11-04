@@ -1,8 +1,6 @@
 <?php
 require 'dbconnect.php';
-//require './controllers/about.controller.php';
 require './controllers/ContactController.php';
-//require './controllers/index.controller.php';
 require './controllers/PortfolioController.php';
 require './controllers/ProjectController.php';
 

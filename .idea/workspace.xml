@@ -5,43 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4612f60-ab34-4b1e-9524-534e66b82ebf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/portfolio.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CV.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/ContactController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/PortfolioController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/ProjectController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/about.controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/index.controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbconnect.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/ContactModel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/PortfolioModel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/ProjectModel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/about.view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/contact.view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/css/about.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/css/contact.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/css/footer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/css/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/css/portfolio.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/css/project.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/img/RETROWAVE-OASIS-33331.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/js/about.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/js/hamburger.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layout/footer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layout/header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/portfolio.view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/project.view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/controllers/about.controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/controllers/index.controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/website/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +136,7 @@
       <workItem from="1730643710433" duration="1259000" />
       <workItem from="1730666344006" duration="2570000" />
       <workItem from="1730717996350" duration="7396000" />
-      <workItem from="1730740861426" duration="123000" />
+      <workItem from="1730740861426" duration="907000" />
     </task>
     <servers />
   </component>
