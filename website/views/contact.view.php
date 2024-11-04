@@ -19,8 +19,7 @@ require 'layout/header.php';
                 </div>
                 <h4>Adress:</h4>
                 <p>
-                    Lumbridge castle
-                    2F Spinning Wheel Room 34
+                    Zeewolde, Nederland
                 </p>
             </div>
             <div class="info">

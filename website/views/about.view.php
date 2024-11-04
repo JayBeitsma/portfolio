@@ -9,13 +9,18 @@ require 'layout/header.php';
         @import "../views/css/about.css";
     </style>
     <div class="about">
-        <h1>Ik ben Jay Beitsma</h1>
-        <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Quis sed nisl sit mi eros posuere commodo phasellus. In cras sapien semper nam platea pellentesque. Auctor curabitur felis et elit finibus nulla pulvinar fringilla. Lacinia venenatis aenean nisi enim viverra platea. Amet lacinia magnis nascetur varius maecenas nibh. Sem erat laoreet efficitur fames vulputate. Magnis hac praesent mi tempus elit porttitor.</p>
-        <h2>Meer ik</h2>
-        <p>Morbi consectetur class conubia hac potenti ullamcorper lobortis nisi porttitor. Maecenas mi in nisl ultricies nibh. Commodo libero sodales porttitor amet commodo euismod habitasse. Pretium sapien scelerisque tincidunt at aliquam malesuada aptent dis. Non habitasse vel maximus proin placerat, placerat magnis urna natoque. Dui sollicitudin risus non ac congue cras penatibus turpis. Ipsum justo ullamcorper bibendum eleifend adipiscing primis mus cubilia adipiscing. Eget etiam hac ultricies; netus libero himenaeos litora. Vitae maximus aliquet nullam pellentesque condimentum, a dolor.</p>
-        <h2>Nog meer ik</h2>
-        <p>Habitant condimentum ipsum aliquet sem ullamcorper dui morbi maecenas. Luctus dapibus quis id dictumst potenti dis. Vulputate feugiat diam ullamcorper augue gravida elementum non tristique nec? Dictum ipsum volutpat hac dolor eros leo tortor efficitur. Fermentum gravida luctus iaculis ante in nisi. Imperdiet aptent bibendum erat urna lectus pharetra quam. Rutrum adipiscing pellentesque sit fringilla vehicula vulputate.</p>
-
+        <h1>Wie ben ik?</h1>
+        <p>
+            Ik ben Jay Beitsma, opgegroeid en gevestigd in Zeewolde.
+            Al van kinds af aan geïnteresseerd in werken met computers, wat is uitgegroeid tot een passie voor software.
+            Daarnaast ben ik een fanatieke gamer en hou ik van een uitdaging
+        </p>
+        <h2>Carriere</h2>
+        <p>
+            Begonnen op het MBO Landstede in Harderwijk waar ik mijn eerste software developer diploma heb gehaald.
+            In mijn tijd bij Landstede heb ik 2 stages van 800 uur gelopen en daar veel werkervaring opgedaan.
+            Tijdens mijn opleiding wist ik al dat ik graag verder wilde studeren en daarom studeer ik nu aan Windesheim in Almere.
+        </p>
     </div>
     <div class="container">
         <div id="swap" class="swap">

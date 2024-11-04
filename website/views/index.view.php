@@ -12,12 +12,11 @@ require 'layout/header.php';
         <span class="smallTitle">HEY,I'M JAY</span><br>
         <span class="bigTitle">I'M A SOFTWARE DEVELOPER</span><br>
         <p class="about">
-            Whispers of ancient skies linger around the bustling corner stones,
-            drifting softly across the morning hue as colors blend quietly,
-            shifting like shadows in the breeze.
+            Op deze website laat ik mijn werk en projecten zien, die mijn vaardigheden en passie weerspiegelen.
+            Of je nu geïnteresseerd bent in mijn technische kennis, creatieve projecten, of mijn professionele ervaring, hier vind je alles wat ik te bieden heb.
         </p>
         <a href="/about">
-            <button  class="more-btn btn">Read more -></button>
+            <button  class="more-btn btn">Lees meer -></button>
         </a>
     </div>
     <div class="imageHolder">

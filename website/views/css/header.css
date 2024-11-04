@@ -43,7 +43,7 @@ nav a {
 }
 
 nav a:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #141414;
     background-color: #2521A6;
     color: black;
 }
