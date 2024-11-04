@@ -1,5 +1,6 @@
 @import "footer.css";
 @import "header.css";
+
 /* Import Orbitron from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
 
@@ -14,10 +15,12 @@ body {
     flex-direction: column;
 }
 
+/* make sure the main always fills the left over space between the header and footer */
 main {
     flex: 1 0 auto;
 }
 
+/* basic button layout */
 .btn {
     background-color: darkblue;
     color: white;

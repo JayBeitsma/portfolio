@@ -41,6 +41,7 @@ main {
     height: 90%;
 }
 
+/* infoboxes inside the project card */
 .infobox {
     display: flex;
     flex-direction: column;

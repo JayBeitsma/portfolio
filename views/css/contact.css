@@ -88,6 +88,7 @@ textarea.inputField {
     height: 300px;
 }
 
+/* disable focus element when using a field */
 input:focus, textarea.inputField:focus {
      outline: none;
 }
@@ -95,12 +96,6 @@ input:focus, textarea.inputField:focus {
 input::placeholder, textarea.inputField::placeholder {
     color: white;
     padding: 2px;
-}
-
-input:-webkit-autofill {
-    -webkit-box-shadow: 0 0 0 1000px skyblue inset;
-    box-shadow: 0 0 0 1000px skyblue inset; /* For non-webkit browsers */
-    -webkit-text-fill-color: white;
 }
 
 .input-btn {

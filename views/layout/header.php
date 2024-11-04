@@ -12,7 +12,7 @@
 <body>
 <header>
     <div class="headerContainer">
-        <div class="test">
+        <div class="wrapper">
             <div class="logo">
                 Logo
             </div>

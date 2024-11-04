@@ -26,13 +26,13 @@ main {
 .more-btn {
     padding: 20px;
     font-size: 16px;
-
 }
 
 .imageHolder {
     width: 90%;
 }
 
+/* There is no image yet */
 /* img {*/
 /*     height: 500px;*/
 /*     width: auto;*/

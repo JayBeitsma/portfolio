@@ -103,6 +103,7 @@ main {
     color: white;
 }
 
+/* Make the about and quality/experience section go side by side */
 @media screen and (min-width: 1024px) {
     main {
         flex-direction: row;

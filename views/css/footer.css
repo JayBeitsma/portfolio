@@ -2,13 +2,10 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
-    height: auto;
-    margin-top: auto;
 }
 
 .footerContainer {
     display: flex;
-    text-align: center;
 }
 
 .footerIcon {
@@ -25,20 +22,8 @@ footer {
 
 @media screen and (min-width: 768px) {
     .footerContainer {
-        flex-direction: row;
-        align-items: center;
         justify-content: space-between;
         width: 100vh;
         max-width: 1200px;
-    }
-
-    .footerIcon {
-        flex: 1;
-        margin-bottom: 0;
-    }
-
-    .copyright {
-        flex: 2;
-        text-align: center;
     }
 }
