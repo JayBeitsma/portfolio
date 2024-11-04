@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>Portfolio Jay Beitsma</title>
     <link rel="stylesheet" href="../views/css/main.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-    <script src="../views/js/hamburger.js"></script>
+    <script src="/views/js/hamburger.js"></script>
 </head>
 <body>
 <header>
     <div class="headerContainer">
         <div class="wrapper">
             <div class="logo">
-                Logo
+                <img src="/views/img/logo.png" alt="logo">
             </div>
             <!--    Hamburger   -->
             <div class="hamburger" onclick="hamburger()">

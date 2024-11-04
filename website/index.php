@@ -17,7 +17,8 @@ switch ($requestPage) {
         $projects = $portfolioController->displayProjects();
         require __DIR__ . '/views/portfolio.view.php';
         break;
-    case (preg_match('/\/project\?id=\d+/', $requestPage) ? true : false): // Match /project?id=<number>
+    //With ChatGPT assistance
+    case (preg_match('/\/project\?id=\d+/', $requestPage) ? true : false): // Match /project?id=<number> will check if the url matches this template
         parse_str(parse_url($requestPage, PHP_URL_QUERY), $queryParams);// Parse the project ID from the URL
         $projectId = $queryParams['id'] ?? null;
 
