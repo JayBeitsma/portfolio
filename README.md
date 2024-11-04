@@ -37,3 +37,6 @@ This repository contains the code for my portfolio website, which showcases my p
 1. Clone the repository:
    ```bash
    git clone https://github.com/JayBeitsma/portfolio.git
+2. Create database:
+- name: portfoliodb
+- dumpfile: extras/portfoliodb.sql   
