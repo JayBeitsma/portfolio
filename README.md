@@ -8,9 +8,7 @@
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [Contact](#contact)
+
 
 ## Overview
 This repository contains the code for my portfolio website, which showcases my projects, skills, and experience. The website is built in Dutch and is intended to provide potential clients or employers with a quick and detailed overview of my work and technical abilities.
@@ -31,7 +29,7 @@ This repository contains the code for my portfolio website, which showcases my p
 ## Installation
 
 ### Prerequisites
-- PHP >= 7.4
+- PHP >= 8.3
 - MySQL
 - Web server like Apache or Nginx
 
