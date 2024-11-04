@@ -1,6 +1,5 @@
 # My Portfolio Website
 
-![Status](https://img.shields.io/badge/status-deployed-brightgreen)
 ![Language](https://img.shields.io/badge/language-Dutch-orange)
 
 ## Table of Contents
